@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <style>
+        .tong {
+            display: block;
+            position: relative;
+        }
+        div.tong img {width: 20rem;}
+        @media (max-width: 576px) {
+          .col1 {width: 456;}
+      }
+
+        @media (max-width: 768px) {
+          .col2 {width: 576px;}
+      }
+        @media (max-width: 992px) {
+          .col3 {width: 768px;}
+      }
+        @media (max-width: 1200px) {
+          .col4 {width: 992px;}
+      }
+        @media (max-width: 1300px) {
+          .col5 {width: 1200px;}
+      }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Hình ảnh Học viện Nông Nghiệp</h1>
+    <div class="tong">
+        <div class="col1" >
+            <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/2018/anh_csvc030-15_41_00_555.JPG" >
+        </div>
+        <div class="col2" >
+            <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/2018/anh_csvc060-15_56_09_600.JPG">
+
+        </div>
+        <div class="col2">
+            <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/2018/anh_csvc023-15_41_01_710.jpg" >
+        </div>
+        <div class="col3">
+            <img src="https://www.facebook.com/photo/?fbid=1581621545299279&set=pcb.1580835368711230&locale=vi_VN">
+        </div>
+        <div class="col3">
+            <img src="https://file.vnua.edu.vn/data/0/images/2022/10/13/host/nhvl1-9.jpg" >
+        </div>
+        <div class="col3">
+            <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/2016/IMG_1059-17_05_04_824.jpg">
+        </div>
+        <div class="col4">
+            <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/s3-14_05_48_325.jpg">
+        </div>
+        <div class="col4">
+            <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/2019/hinh_anh_dep_hv036-16_09_13_056.jpg">
+        </div>
+        <div class="col4">
+            <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/2018/anh_csvc010-15_34_44_251.jpg">
+        </div>
+        <div class="col4">
+            <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/2018/anh_csvc005-15_34_45_109.jpg">
+        </div>
+        <div class="col5">
+            <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/2018/anh_csvc004-15_34_45_265.jpg">
+        </div>
+        <div class="col5">
+            <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/2018/anh_csvc018-15_38_04_462.jpg">
+        </div>
+    </div>
+</body>
+</html>
