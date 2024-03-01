@@ -8,63 +8,39 @@
             display: flex;
             flex-wrap: wrap;
             height: 20rem;
+            text-align: center;
         }
         div.tong img {width: 20rem;}
         @media (max-width: 576px) {
-             div.col1 img {width: 200%;}
+             .tong img {width: 200%;}
       }
         @media (max-width: 768px) {
-             div.col1 img {width: 50%;}
-             
+             .tong img {}     
       }
         @media (max-width: 992px) {
-            div.col1 img {width: 768px;}
+            .tong img {}
       }
         @media (max-width: 1200px) {
-            div.col1 img {width: 992px;}
+            .tong img {}
       }
-   
     </style>
 </head>
 <body>
     <h1 style="text-align: center;color: green;">Hình ảnh Học viện Nông Nghiệp</h1>
-    <div class="tong">
-        <div class="col1" >
-            <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/2018/anh_csvc030-15_41_00_555.JPG" >
-        </div>
+    <div class="tong">    
         <div class="col1" >
             <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/2018/anh_csvc060-15_56_09_600.JPG">
-
-        </div>
-        <div class="col1">
             <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/2018/anh_csvc023-15_41_01_710.jpg" >
-        </div>
-        <div class="col1">
             <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/2018/anh_csvc014-15_38_05_148.jpg">
-        </div>
-        <div class="col1">
             <img src="https://file.vnua.edu.vn/data/0/images/2022/10/13/host/nhvl1-9.jpg" >
-        </div>
-        <div class="col1">
-            <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/2016/IMG_1059-17_05_04_824.jpg">
-        </div>
-        <div class="col1">
-            <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/s3-14_05_48_325.jpg">
-        </div>
-        <div class="col1">
-            <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/2019/hinh_anh_dep_hv036-16_09_13_056.jpg">
-        </div>
-        <div class="col1">
             <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/2018/anh_csvc010-15_34_44_251.jpg">
-        </div>
-        <div class="col1">
-            <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/2018/anh_csvc005-15_34_45_109.jpg">
-        </div>
-        <div class="col1">
             <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/2018/anh_csvc004-15_34_45_265.jpg">
-        </div>
-        <div class="col1">
+            <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/2016/IMG_1059-17_05_04_824.jpg"> 
+            <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/s3-14_05_48_325.jpg">
+            <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/2019/hinh_anh_dep_hv036-16_09_13_056.jpg">
+            <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/2018/anh_csvc005-15_34_45_109.jpg">
             <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/2018/anh_csvc018-15_38_04_462.jpg">
+            <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/2018/anh_csvc030-15_41_00_555.JPG" >
         </div>
     </div>
 </body>
