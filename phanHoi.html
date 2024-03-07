@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style >
+        .phanHoi {
+            transform: translate(650px,50px);
+            border: 2px solid;
+            border-radius: 10px;
+            padding:  10px  10px;
+            margin: 0px 0px 0px 0px;
+            text-align: center;
+            float: inline;
+            width: 30%;
+        }
+        input {
+            text-align: left;
+            width: 310px;
+        }
+        @media (max-width: 768px) {
+            .phanHoi {width: 49%;}
+      }
+
+        @media (max-width: 576px) {
+            .phanHoi {width: 100%;}
+      }
+    </style>
+    <script>
+        function Gui() {
+            document.getElementById("Gui").innerHTML = "Ban vui long nhap them";
+        }
+    </script>
+</head>
+<body>
+    <div class="phanHoi">
+        <h1 style="color: rgb(74, 137, 255);">Gửi Phản Hồi</h1>
+        <form>
+            <input type="text" id="hoTen" placeholder="*Nhập Họ Tên">
+            <br><br>
+            <input type="email" id="Email" placeholder="*Nhập Email">
+            <br> <br>
+            <input type="number" id="sDT" placeholder="*Nhập số điện thoại">
+            <br><br>
+            <textarea id="thongDiep" cols="40" rows="10" placeholder="Nội dung góp ý"></textarea>
+            <br><br>
+            <input type="submit" id="Gui" onclick="Gui()" value="Gửi" style="width: 40px;
+            height: 30px; border-radius: 10px; border: 2px solid black; background-image: linear-gradient(to right,red,green,blue);color: white;">
+            <input type="button"  value="Xóa Trắng" style="width: 80px;height: 30px; border-radius: 10px;background-image: linear-gradient(to right,red,green,blue);color: white;  ">
+        </form>
+    </div>
+</body>
+</html>
