@@ -3,273 +3,288 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bán các kiểu</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" type="x-icon" href="./teach Phone (1).png">
+    <title>Teachphone</title>
+    <link rel="stylesheet" href="ctSP.css">
+    <link rel="shortcut icon" type="x-icon" href="https://scontent.fhan17-1.fna.fbcdn.net/v/t1.15752-9/432020645_1115776796415589_2964001679249310149_n.png?stp=dst-png_p206x206&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=2b8FBGUSOKsAX83JKxy&_nc_ht=scontent.fhan17-1.fna&oh=03_AdTqwdAIDA4nSEOIYQojWg-aQDI9kCq62vktCh_ZyDF14A&oe=661D4815">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/6bd99065c8.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
 </head>
 <body>
     <div class="wapper">
-        <div class="grid__full-width">
-            <div class="row">
+        <div class="grid__full-width ">
+            <div class="row">  
                 <header class="header"> 
-                <div class="header__banner grid__full-width">
-                                        <img src="https://cdn2.cellphones.com.vn/x30,webp,q100/https://dashboard.cellphones.com.vn/storage/207x30_TopBanner_Homepage_01.2024_Mb_2-01133.svg" alt="">
-                                        <img src="https://cdn2.cellphones.com.vn/x30,webp,q100/https://dashboard.cellphones.com.vn/storage/207x30_TopBanner_Homepage_01.2024_Mb_2-02133.svg" alt="">
-                                        <img src="https://cdn2.cellphones.com.vn/x30,webp,q100/https://dashboard.cellphones.com.vn/storage/207x30_TopBanner_Homepage_01.2024_Mb_2-03133.svg" alt="">
-                                    </div>                           
+                    <div class="header__banner full-width" >
+                        <img src="https://cdn2.cellphones.com.vn/x30,webp,q100/https://dashboard.cellphones.com.vn/storage/207x30_TopBanner_Homepage_01.2024_Mb_2-01133.svg">
+                        <img src="https://cdn2.cellphones.com.vn/x30,webp,q100/https://dashboard.cellphones.com.vn/storage/207x30_TopBanner_Homepage_01.2024_Mb_2-02133.svg">
+                        <img src="https://cdn2.cellphones.com.vn/x30,webp,q100/https://dashboard.cellphones.com.vn/storage/207x30_TopBanner_Homepage_01.2024_Mb_2-03133.svg">
+                    </div>                         
                     <div class="grid">                 
                         <div class="row">                            
-                            <nav class="header__navbar">                                  
-                                <ul class="header__navbar-list">                            
+                            <nav class="header__navbar" >                                  
+                                <ul class="header__navbar-list" >                            
                                     <div class="header-with-srearch">
                                         <div class="header-logo">
-                                            <img src="./teach Phone.png" alt="Avatar Logo" style="width: 140px;" >
+                                            <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/431923878_1447498716143960_400124053052663361_n.png?stp=dst-png_p206x206&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=th3Cm9COaAcAX8WiVzk&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRcHIb5dJJ7OWrS9svqlhOxWiLLWr4pA6fumtla0t28FQ&oe=661D4ACA" alt="Avatar Logo" style="width: 140px;" >
                                         </div>
-                                        <div class="header__search" id="search">
+                                        <div class="header__search" >
                                             <button class="header__logo_search-button"><span style="color: white;font-size: 25px;" ><i class="fa-solid fa-magnifying-glass"></i></span></button> 
                                             <form class="timkiem">
                                                 <input type="text" name="search" class="search1" placeholder="Tìm kiếm...">
-                                               
+                                                <button class="header__logo_search"><span style="color: white;font-size: 25px;" ><i class="fa-solid fa-magnifying-glass"></i></span></button> 
                                             </form>
                                         </div>
                                     </div>
         
                                 </ul>
         
-                                <ul class="header__navbar-list">
-                                        <li class="header__navbar-item header__navbar-item--strong">Trang chủ</li>
-                                        <li class="header__navbar-item header__navbar-item--strong">Tài Khoản</li>
-                                        <li class="header__navbar-item">
-                                            <a href="#" class="header__navbar-item-link">Thiết kế</a>
-                                        </li>
-                                        <li class="header__navbar-item">
-                                            <a href="#" class="header__navbar-item-link">Giỏ Hàng</a>
-                                        </li>
-                                        <li class="header__navbar-item"><a href="#" class="header__navbar-item-link">Liên Hệ</a></li>
-        
+                                <ul class="header__navbar-list content" id="id_content">
+                                        <li class="header__navbar-item"><a href="" class="header__navbar-item-link"><i class="fa-solid fa-house"></i></a></li>
+                                        <li class="header__navbar-item"><a href="#" class="header__navbar-item-link"><i class="fa-solid fa-user"></i></a></li>
+                                        <li class="header__navbar-item"><a href="#" class="header__navbar-item-link"><i class="fa-solid fa-cart-shopping"></i></a></li>                                        
+                                        <li class="header__navbar-item"><a href="" class="header__navbar-item-link"><i class="fa-solid fa-phone"></i></a></li>
                                 </ul> 
                         </nav>
                         </div>  
                     </div>
                 </header>
         
-                <div class="container-fluid">
+                <div class="container-fluid ">
                     <div class="grid">
                         <div class="row">
-                            <div class="grid__list col-md-2">                                
+                            <div class="grid__list col-xl-2 col-sm-12 col-12 " >                                
                                 <nav class="category">
-                                    <h5 class="category__heading"><i class="fa-solid fa-bars icon"></i><span class="category-tong">Danh Mục Sản Phẩm</span></h5>
-                                    
-                                    <ul class="category-list">
+                                    <h5 class="category__heading"><i class="fa-solid fa-bars icon" style="color: green;"></i><span class="category-tong">Danh Mục Sản Phẩm</span></h5>                                    
+                                    <ul class="category-list content" id="id_content">
                                         <li class="category-item">
                                             <a href="#" class="category-item__link">
                                                 <span class="category-tong">
-                                                    <img src="https://i.pinimg.com/564x/8a/e1/39/8ae139c562976c22aab72361009e4b20.jpg" style="width: 20px;"></img>
+                                                    <img src="https://cdn-icons-png.flaticon.com/128/2739/2739899.png" style="width: 30px;"></img>
                                                 IPHONE
                                             </span>
                                         </a>
                                         </li>  
-                                    </ul>
-                                    <ul class="category-list">
+                                        <br>
                                         <li class="category-item">                                    
                                             <a href="#" class="category-item__link">
                                                 <span class="category-tong">
-                                                    <img src="https://i.pinimg.com/564x/8a/e1/39/8ae139c562976c22aab72361009e4b20.jpg" style="width: 20px;" class="category__heading-icon"></img>
+                                                    <img src="https://cdn-icons-png.flaticon.com/128/35/35429.png" style="width: 30px;" class="category__heading-icon"></img>
                                                     SAMSUNG
                                                 </span>
                                             </a>
                                         </li>   
-                                    </ul>
-                                    <ul class="category-list">
+                                        <br>
                                         <li class="category-item">
-                                            <a href="#" class="category-item__link"><img src="https://i.pinimg.com/564x/8a/e1/39/8ae139c562976c22aab72361009e4b20.jpg" style="width: 20px;"></img><span>XIAOMI</span></a>
-                                        </li>
-                                        <li class="category-item-icon">   
+                                            <a href="#" class="category-item__link">
+                                                <span class="category-tong">
+                                                    <img src="https://cdn-icons-png.flaticon.com/128/10514/10514138.png" style="width: 30px;"></img>
+                                                    XIAOMI
+                                                </span>
+                                            </a>               
+                                        </li>  
                                     </ul>                                                   
                                 </nav>
                             </div>
             
-                            <div class="grid col-md-10">
+                            <div class="grid col-xl-10 col-sm-12 col-12 ">
                                 <div class="row">
-                                    <div id="demo" class="carousel slide col-12" data-bs-ride="carousel">
-                                        <div class="carousel-indicators">
+                                    <div id="demo" class="carousel slide col-12 pipe" data-bs-ride="carousel">
+                                        <div class="carousel-indicators pipe">
                                           <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active next"></button>
                                           <button type="button" data-bs-target="#demo" data-bs-slide-to="1" class="next"></button>
                                           <button type="button" data-bs-target="#demo" data-bs-slide-to="2" class="next"></button>
                                         </div>
                                         
-                                        <div class="carousel-inner col-12">
-                                          <div class="carousel-item active">
-                                            <img class="truot img-rounded" src="https://bizweb.dktcdn.net/100/436/596/themes/834446/assets/slider_1.jpg?1709705396374" class="block" style="width: 100%;">
+                                        <div class="carousel-inner col-12 pipe">
+                                          <div class="carousel-item active pipe">
+                                            <img class="truot img-rounded pipe" src="https://bizweb.dktcdn.net/100/436/596/themes/834446/assets/slider_1.jpg?1709705396374" class="block" style="width: 100%;">
                                           </div>
                                           <div class="carousel-item">
-                                            <img class="truot img-rounded " src="https://bizweb.dktcdn.net/100/436/596/themes/834446/assets/slider_2.jpg?1709705396374" class="block" style="width: 100%;">
+                                            <img class="truot img-rounded pipe" src="https://bizweb.dktcdn.net/100/436/596/themes/834446/assets/slider_2.jpg?1709705396374" class="block" style="width: 100%;">
                                           </div>
                                           <div class="carousel-item">
-                                            <img class="truot img-rounded" src="https://bizweb.dktcdn.net/100/436/596/themes/834446/assets/slider_3.jpg?1709705396374" class="block" style="width: 100%;">
+                                            <img class="truot img-rounded pipe" src="https://bizweb.dktcdn.net/100/436/596/themes/834446/assets/slider_3.jpg?1709705396374" class="block" style="width: 100%;">
                                           </div>
                                         </div>
                                         
-                                        <button class="carousel-control-prev " type="button" data-bs-target="#demo" data-bs-slide="prev">
-                                          <span class="carousel-control-prev-icon "></span>
+                                        <button class="carousel-control-prev pipe" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                                          <span class="carousel-control-prev-icon pipe"></span>
                                         </button>
-                                        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                                          <span class="carousel-control-next-icon "></span>
+                                        <button class="carousel-control-next pipe" type="button" data-bs-target="#demo" data-bs-slide="next">
+                                          <span class="carousel-control-next-icon  pipe"></span>
                                         </button>
                                     </div>
                                 </div>
                                         <div class="grid__col-12">
                                             <div class="row">
                                                 <div class="SP_item-info grid_col-2-4">
-                                                    <div class="SP_item-info__book" >
-                                                        <img class="SP_item-info-img" src="https://bookbuy.vn/Res/Images/Product/vao-vung-nuoc-xoay_128546_1.jpg">
-                                                    </div>
-                                                    <div class="SP_item-info-name">    
-                                                        <a class="SP_item-info-tagName" href=""><h5>Vào vùng nước xoáy</h5></a>
-                                                    </div>
-                                                    <div class="SP_item-info-money">
-                                                        <span class="SP_item-info-money-new">189.000₫</span>
-                                                        <span class="SP_item-info-money-old">230.000₫</span>                                                
-                                                        <span class="SP_item-info-money-sale">-15%</span>        
-                                                    </div>                                                                                                                       
+                                                    <a href="#">
+                                                        <div class="SP_item-info__book" >
+                                                            <img class="SP_item-info-img" src="https://bookbuy.vn/Res/Images/Product/vao-vung-nuoc-xoay_128546_1.jpg">
+                                                        </div>
+                                                        <div class="SP_item-info-name">    
+                                                            <h5 class="SP_item-info-tagName">Vào vùng nước xoáy</h5>
+                                                        </div>
+                                                        <div class="SP_item-info-money">
+                                                            <span class="SP_item-info-money-new">189.000₫</span>
+                                                            <span class="SP_item-info-money-old">230.000₫</span>                                                
+                                                            <span class="SP_item-info-money-sale">-15%</span>        
+                                                        </div>  
+                                                    </a>                                                                                                                     
                                                 </div>
                                                 <div class="SP_item-info grid_col-2-4">
-                                                    <div class="SP_item-info__book" >
-                                                        <img class="SP_item-info-img" src="https://bookbuy.vn/Res/Images/Product/vao-vung-nuoc-xoay_128546_1.jpg">
-                                                    </div>
-                                                    <div class="SP_item-info-name">    
-                                                        <a class="SP_item-info-tagName" href=""><h5>Vào vùng nước xoáy</h5></a>
-                                                    </div>
-                                                    <div class="SP_item-info-money">
-                                                        <span class="SP_item-info-money-new">189.000₫</span>
-                                                        <span class="SP_item-info-money-old">230.000₫</span>                                                
-                                                        <span class="SP_item-info-money-sale">-15%</span>        
-                                                    </div>                                                                                                                       
+                                                    <a href="#">
+                                                        <div class="SP_item-info__book" >
+                                                            <img class="SP_item-info-img" src="https://bookbuy.vn/Res/Images/Product/vao-vung-nuoc-xoay_128546_1.jpg">
+                                                        </div>
+                                                        <div class="SP_item-info-name">    
+                                                            <h5 class="SP_item-info-tagName">Vào vùng nước xoáy</h5>
+                                                        </div>
+                                                        <div class="SP_item-info-money">
+                                                            <span class="SP_item-info-money-new">189.000₫</span>
+                                                            <span class="SP_item-info-money-old">230.000₫</span>                                                
+                                                            <span class="SP_item-info-money-sale">-15%</span>        
+                                                        </div>  
+                                                    </a>                                                                                                                     
                                                 </div>
                                                 <div class="SP_item-info grid_col-2-4">
-                                                    <div class="SP_item-info__book" >
-                                                        <img class="SP_item-info-img" src="https://bookbuy.vn/Res/Images/Product/vao-vung-nuoc-xoay_128546_1.jpg">
-                                                    </div>
-                                                    <div class="SP_item-info-name">    
-                                                        <a class="SP_item-info-tagName" href=""><h5>Vào vùng nước xoáy</h5></a>
-                                                    </div>
-                                                    <div class="SP_item-info-money">
-                                                        <span class="SP_item-info-money-new">189.000₫</span>
-                                                        <span class="SP_item-info-money-old">230.000₫</span>                                                
-                                                        <span class="SP_item-info-money-sale">-15%</span>        
-                                                    </div>                                                                                                                       
+                                                    <a href="#">
+                                                        <div class="SP_item-info__book" >
+                                                            <img class="SP_item-info-img" src="https://bookbuy.vn/Res/Images/Product/vao-vung-nuoc-xoay_128546_1.jpg">
+                                                        </div>
+                                                        <div class="SP_item-info-name">    
+                                                            <h5 class="SP_item-info-tagName">Vào vùng nước xoáy</h5>
+                                                        </div>
+                                                        <div class="SP_item-info-money">
+                                                            <span class="SP_item-info-money-new">189.000₫</span>
+                                                            <span class="SP_item-info-money-old">230.000₫</span>                                                
+                                                            <span class="SP_item-info-money-sale">-15%</span>        
+                                                        </div>  
+                                                    </a>                                                                                                                     
                                                 </div>
                                                 <div class="SP_item-info grid_col-2-4">
-                                                    <div class="SP_item-info__book " >
-                                                        <img class="SP_item-info-img" src="https://bookbuy.vn/Res/Images/Product/vao-vung-nuoc-xoay_128546_1.jpg">
-                                                    </div>
-                                                    <div class="SP_item-info-name">    
-                                                        <a class="SP_item-info-tagName" href=""><h5>Vào vùng nước xoáy</h5></a>
-                                                    </div>
-                                                    <div class="SP_item-info-money">
-                                                        <span class="SP_item-info-money-new">189.000₫</span>
-                                                        <span class="SP_item-info-money-old">230.000₫</span>                                                
-                                                        <span class="SP_item-info-money-sale">-15%</span>        
-                                                    </div>                                                                                                                       
+                                                    <a href="#">
+                                                        <div class="SP_item-info__book" >
+                                                            <img class="SP_item-info-img" src="https://bookbuy.vn/Res/Images/Product/vao-vung-nuoc-xoay_128546_1.jpg">
+                                                        </div>
+                                                        <div class="SP_item-info-name">    
+                                                            <h5 class="SP_item-info-tagName">Vào vùng nước xoáy</h5>
+                                                        </div>
+                                                        <div class="SP_item-info-money">
+                                                            <span class="SP_item-info-money-new">189.000₫</span>
+                                                            <span class="SP_item-info-money-old">230.000₫</span>                                                
+                                                            <span class="SP_item-info-money-sale">-15%</span>        
+                                                        </div>  
+                                                    </a>                                                                                                                     
                                                 </div>
                                                 <div class="SP_item-info grid_col-2-4">
-                                                    <div class="SP_item-info__book " >
-                                                        <img class="SP_item-info-img" src="https://bookbuy.vn/Res/Images/Product/vao-vung-nuoc-xoay_128546_1.jpg">
-                                                    </div>
-                                                    <div class="SP_item-info-name">    
-                                                        <a class="SP_item-info-tagName" href=""><h5>Vào vùng nước xoáy</h5></a>
-                                                    </div>
-                                                    <div class="SP_item-info-money">
-                                                        <span class="SP_item-info-money-new">189.000₫</span>
-                                                        <span class="SP_item-info-money-old">230.000₫</span>                                                
-                                                        <span class="SP_item-info-money-sale">-15%</span>        
-                                                    </div>                                                                                                                       
+                                                    <a href="#">
+                                                        <div class="SP_item-info__book" >
+                                                            <img class="SP_item-info-img" src="https://bookbuy.vn/Res/Images/Product/vao-vung-nuoc-xoay_128546_1.jpg">
+                                                        </div>
+                                                        <div class="SP_item-info-name">    
+                                                            <h5 class="SP_item-info-tagName">Vào vùng nước xoáy</h5>
+                                                        </div>
+                                                        <div class="SP_item-info-money">
+                                                            <span class="SP_item-info-money-new">189.000₫</span>
+                                                            <span class="SP_item-info-money-old">230.000₫</span>                                                
+                                                            <span class="SP_item-info-money-sale">-15%</span>        
+                                                        </div>  
+                                                    </a>                                                                                                                     
                                                 </div>
                                                 <div class="SP_item-info grid_col-2-4">
-                                                    <div class="SP_item-info__book" >
-                                                        <img class="SP_item-info-img" src="https://bookbuy.vn/Res/Images/Product/vao-vung-nuoc-xoay_128546_1.jpg">
-                                                    </div>
-                                                    <div class="SP_item-info-name">    
-                                                        <a class="SP_item-info-tagName" href=""><h5>Vào vùng nước xoáy</h5></a>
-                                                    </div>
-                                                    <div class="SP_item-info-money">
-                                                        <span class="SP_item-info-money-new">189.000₫</span>
-                                                        <span class="SP_item-info-money-old">230.000₫</span>                                                
-                                                        <span class="SP_item-info-money-sale">-15%</span>        
-                                                    </div>                                                                                                                       
+                                                    <a href="#">
+                                                        <div class="SP_item-info__book" >
+                                                            <img class="SP_item-info-img" src="https://bookbuy.vn/Res/Images/Product/vao-vung-nuoc-xoay_128546_1.jpg">
+                                                        </div>
+                                                        <div class="SP_item-info-name">    
+                                                            <h5 class="SP_item-info-tagName">Vào vùng nước xoáy</h5>
+                                                        </div>
+                                                        <div class="SP_item-info-money">
+                                                            <span class="SP_item-info-money-new">189.000₫</span>
+                                                            <span class="SP_item-info-money-old">230.000₫</span>                                                
+                                                            <span class="SP_item-info-money-sale">-15%</span>        
+                                                        </div>  
+                                                    </a>                                                                                                                     
                                                 </div>
                                                 <div class="SP_item-info grid_col-2-4">
-                                                    <div class="SP_item-info__book" >
-                                                        <img class="SP_item-info-img" src="https://bookbuy.vn/Res/Images/Product/vao-vung-nuoc-xoay_128546_1.jpg">
-                                                    </div>
-                                                    <div class="SP_item-info-name">    
-                                                        <a class="SP_item-info-tagName" href=""><h5>Vào vùng nước xoáy</h5></a>
-                                                    </div>
-                                                    <div class="SP_item-info-money">
-                                                        <span class="SP_item-info-money-new">189.000₫</span>
-                                                        <span class="SP_item-info-money-old">230.000₫</span>                                                
-                                                        <span class="SP_item-info-money-sale">-15%</span>        
-                                                    </div>                                                                                                                       
+                                                    <a href="#">
+                                                        <div class="SP_item-info__book" >
+                                                            <img class="SP_item-info-img" src="https://bookbuy.vn/Res/Images/Product/vao-vung-nuoc-xoay_128546_1.jpg">
+                                                        </div>
+                                                        <div class="SP_item-info-name">    
+                                                            <h5 class="SP_item-info-tagName">Vào vùng nước xoáy</h5>
+                                                        </div>
+                                                        <div class="SP_item-info-money">
+                                                            <span class="SP_item-info-money-new">189.000₫</span>
+                                                            <span class="SP_item-info-money-old">230.000₫</span>                                                
+                                                            <span class="SP_item-info-money-sale">-15%</span>        
+                                                        </div>  
+                                                    </a>                                                                                                                     
                                                 </div>
                                                 <div class="SP_item-info grid_col-2-4">
-                                                    <div class="SP_item-info__book" >
-                                                        <img class="SP_item-info-img" src="https://bookbuy.vn/Res/Images/Product/vao-vung-nuoc-xoay_128546_1.jpg">
-                                                    </div>
-                                                    <div class="SP_item-info-name">    
-                                                        <a class="SP_item-info-tagName" href=""><h5>Vào vùng nước xoáy</h5></a>
-                                                    </div>
-                                                    <div class="SP_item-info-money">
-                                                        <span class="SP_item-info-money-new">189.000₫</span>
-                                                        <span class="SP_item-info-money-old">230.000₫</span>                                                
-                                                        <span class="SP_item-info-money-sale">-15%</span>        
-                                                    </div>                                                                                                                       
+                                                    <a href="#">
+                                                        <div class="SP_item-info__book" >
+                                                            <img class="SP_item-info-img" src="https://bookbuy.vn/Res/Images/Product/vao-vung-nuoc-xoay_128546_1.jpg">
+                                                        </div>
+                                                        <div class="SP_item-info-name">    
+                                                            <h5 class="SP_item-info-tagName">Vào vùng nước xoáy</h5>
+                                                        </div>
+                                                        <div class="SP_item-info-money">
+                                                            <span class="SP_item-info-money-new">189.000₫</span>
+                                                            <span class="SP_item-info-money-old">230.000₫</span>                                                
+                                                            <span class="SP_item-info-money-sale">-15%</span>        
+                                                        </div>  
+                                                    </a>                                                                                                                     
                                                 </div>
                                                 <div class="SP_item-info grid_col-2-4">
-                                                    <div class="SP_item-info__book " >
-                                                        <img class="SP_item-info-img" src="https://bookbuy.vn/Res/Images/Product/vao-vung-nuoc-xoay_128546_1.jpg">
-                                                    </div>
-                                                    <div class="SP_item-info-name">    
-                                                        <a class="SP_item-info-tagName" href=""><h5>Vào vùng nước xoáy</h5></a>
-                                                    </div>
-                                                    <div class="SP_item-info-money">
-                                                        <span class="SP_item-info-money-new">189.000₫</span>
-                                                        <span class="SP_item-info-money-old">230.000₫</span>                                                
-                                                        <span class="SP_item-info-money-sale">-15%</span>        
-                                                    </div>                                                                                                                       
+                                                    <a href="#">
+                                                        <div class="SP_item-info__book" >
+                                                            <img class="SP_item-info-img" src="https://bookbuy.vn/Res/Images/Product/vao-vung-nuoc-xoay_128546_1.jpg">
+                                                        </div>
+                                                        <div class="SP_item-info-name">    
+                                                            <h5 class="SP_item-info-tagName">Vào vùng nước xoáy</h5>
+                                                        </div>
+                                                        <div class="SP_item-info-money">
+                                                            <span class="SP_item-info-money-new">189.000₫</span>
+                                                            <span class="SP_item-info-money-old">230.000₫</span>                                                
+                                                            <span class="SP_item-info-money-sale">-15%</span>        
+                                                        </div>  
+                                                    </a>                                                                                                                     
                                                 </div>
                                                 <div class="SP_item-info grid_col-2-4">
-                                                    <div class="SP_item-info__book " >
-                                                        <img class="SP_item-info-img" src="https://bookbuy.vn/Res/Images/Product/vao-vung-nuoc-xoay_128546_1.jpg">
-                                                    </div>
-                                                    <div class="SP_item-info-name">    
-                                                        <a class="SP_item-info-tagName" href=""><h5>Vào vùng nước xoáy</h5></a>
-                                                    </div>
-                                                    <div class="SP_item-info-money">
-                                                        <span class="SP_item-info-money-new">189.000₫</span>
-                                                        <span class="SP_item-info-money-old">230.000₫</span>                                                
-                                                        <span class="SP_item-info-money-sale">-15%</span>        
-                                                    </div>                                                                                                                       
-                                                </div>                            
-                            </div>
+                                                    <a href="#">
+                                                        <div class="SP_item-info__book" >
+                                                            <img class="SP_item-info-img" src="https://bookbuy.vn/Res/Images/Product/vao-vung-nuoc-xoay_128546_1.jpg">
+                                                        </div>
+                                                        <div class="SP_item-info-name">    
+                                                            <h5 class="SP_item-info-tagName">Vào vùng nước xoáy</h5>
+                                                        </div>
+                                                        <div class="SP_item-info-money">
+                                                            <span class="SP_item-info-money-new">189.000₫</span>
+                                                            <span class="SP_item-info-money-old">230.000₫</span>                                                
+                                                            <span class="SP_item-info-money-sale">-15%</span>        
+                                                        </div>  
+                                                    </a>                                                                                                                     
+                                                </div>                                                                        
+                                            </div>
                                         </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                </div>
                 </div>
                 <footer>
                     <div class="footer__header">
                         <div class="grid__full-width">
                             <div class="row">
-                                <h4 class="footer__say">TECH PHONE-Trao Niềm Tin Nhận Tài Lộc</h4>
+                                <h4 class="footer__say">TECH PHONE - Trao Niềm Tin Nhận Tài Lộc</h4>
                         <ul class=" footer__information">
                             <li class="footer__information-item">
                                 <b>Sàn bán điện thoại trực tuyến quốc gia</b><br>
                                 <b>Teachphone.com</b>
-                                <p>Thuộc Học viện nông nghiệp Việt Nam</p>
-                                <p>Đơn vị vận hành :Hiếu Và Sơn</p>
+                                <br>
+                                <span>Thuộc Học viện nông nghiệp Việt Nam</span>
+                                <p>Đơn vị vận hành: Hiếu Và Sơn</p>
                             </li>
                             <li class="footer__information-item">
                                 <a class="footer__information-link" href=""><b>Giới thiệu</b></a><br>
@@ -288,18 +303,15 @@
                             </li>
                         </ul>
                             </div>
-                        </div>
-                        
-                    </div>
-                    
+                        </div>                        
+                    </div>                    
                 </footer>
             </div>
         </div>
-            </div>
+    </div>
 
 </body>
-    <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
-    <script src="./bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
-    <script src="./bootstrap-5.3.3-dist/js/bootstrap.esm.min.js"></script>
+<script src="https://kit.fontawesome.com/6bd99065c8.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </html>
