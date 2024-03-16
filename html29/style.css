@@ -1,9 +1,12 @@
 /*HEADER*/
-
+.wapper {margin: 0px !important;}
 .header {
     height: 120px;
     background-image: linear-gradient(0,#1F472A,#217638);
     justify-content: space-between;    
+}
+.full-width{
+    overflow: hidden;
 }
 .header__banner{
     height: 30px;
@@ -22,7 +25,7 @@
     margin-top: 2px;
 }
 .header__navbar-item {
-    margin: 0 4px;
+    margin-right: 11px;
     position: relative;
     margin-top: 20px;
 }
@@ -39,10 +42,12 @@
     font-weight: 100;
 }
 .header__navbar-item:hover,
-.header__navbar-item-link:hover{    
+.header__navbar-item-link:hover,.header__logo_search-button:hover {    
     color: rgb(209, 209, 209, 0.7);
     cursor: pointer;
 }
+
+/* TIMKIEM LOGO*/
 .header-with-srearch {
     display: inline-flex;
     align-items: center;
@@ -67,6 +72,12 @@
     border: none;
     outline: none;
     transform: translateY(-32px);
+}
+.header__logo_search {
+    background: none;
+    border: none;
+    outline: none;
+    transform: translateX(-50px);
 }
 
 .timkiem{
@@ -95,15 +106,15 @@
     display: block;
     margin: 0 auto;
     padding: 0;
+
 }
-.grid__full-width
-{max-width: 100%;}
+.grid__full-width { max-width: 100%;}
 .row {  
     display: flex;
     flex-wrap: wrap;
     margin-left: -6px;
     margin-right: -6px;
-  }
+}
 
 .gird__list {
     padding-left: 6px;
@@ -113,41 +124,40 @@
     flex: 0 0 19%;
     max-width: 19%;
 }
-
-.col-12 {margin-top: 10px;}
-.grid__col-12 {margin-top: 6px;}
+.col-12 {
+    margin-top: 10px;
+}
+.grid__col-12 {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
 /*CONTAINER*/
 .container-fluid {
         background-color: #f5f5f5;
         margin-top: 12px;
 }
-
+/* LIST SAN PHAM*/
 .category {
         background-color: white;
         border-radius: 10px;
         margin-top: 12px;
-        font-size: 1rem;
+        font-size: 0.95rem;
         margin-top: 12px;
         box-shadow: inset 0 0 5px #988787;
-        float: left;
 }
 .category__heading {
     font-size: 1em;
     padding: 5px 5px;
     margin: 0 4px;    
 }
-.icons-cate {
-    margin-left: 60px;
-    font-size: 0.87em;
-    color: black;
-}
 .category-list {
     list-style: none;
-    padding: 1px 40px;
+    padding-left: 12px;
 }
 .category-tong {
     display: inline-flex;
     justify-content: center;
+    margin: 0 2px;
 }
 .category-item,
 .category-item__link,
@@ -164,8 +174,7 @@
     color: #217638;
     cursor: pointer;
 }
-.truot{
-   
+.truot{   
     border: solid white;
     border-radius: 6px;
 }
@@ -173,24 +182,30 @@
     background-image: linear-gradient(0,#1F472A,#1F472A);
 }
 
-
+/*SANPHAM*/
 .SP_item-info{
-    margin:5px;
+    border-radius: 5px;
+    margin:4px;
     max-width:auto;
     background-color: #ffffff;
     display: inline;
+    box-shadow: inset 0 0 3px #c2bebe;
 }
 
 .SP_item-info-img{
     width:100%;
+    margin-top: 5px;
 }
-
+.SP_item-info-img:hover,.SP_item-info-tagName:hover{
+    transition: 1;
+    transform: translateY(-2px);
+    color: #217638;
+}
 .SP_item-info-tagName{
     align-items: stretch;
     text-decoration: none;
     color:black;
 }
-
 .SP_item-info-money{
     align-items: stretch;
     margin:10px;
@@ -220,7 +235,7 @@
     height: 100px;
 }
 .footer__say{
-    padding:px 0;
+    padding: 5px;
     height:auto;
     background-image: linear-gradient(0,#1F472A,#217638);
     color: #f5f5f5;
@@ -243,4 +258,7 @@
 }
 .icon{
     color:#3391cf;
+}
+a[href]{
+    text-decoration: none;
 }
