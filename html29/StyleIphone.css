@@ -109,7 +109,6 @@
 .row {  
     display: flex;
     flex-wrap: wrap;
-    margin: !important;
 }
 .gird__list {
     padding-left: 6px;
@@ -238,4 +237,82 @@
 }
 a[href]{
     text-decoration: none;
+}
+
+.bgcolor{
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 999 !important
+}
+.login-form{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    z-index: 999 !important;
+    
+}
+.login-form1{
+    display: inline-flex;
+    background-color: white;
+    border: 1px;
+    border-radius: 14px;
+}
+.close{
+    padding: 0px 11px 3px 11px ;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: #fd5465;
+    border: 1px;
+    border-radius: 100px;
+}
+.close:hover{
+    cursor: pointer;
+    background-color: #00483d;
+}
+.login-bg{
+    padding: 90px 40px;
+    background-color: rgb(251, 233, 231);
+    border: 1px;
+    border-radius: 14px 0px 0px 14px;
+}
+.form{
+    padding: 120px;
+}
+.input{
+    background: #e5e5e5;
+    border-radius: 4px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+.dnanddk{
+    display: flex;
+}
+.dangnhap{
+    background: transparent linear-gradient(180deg, #00917a 0%, #00483d 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0 4px 6px #00000029;
+    border-radius: 3px;
+    color: #fff;
+    border: none;
+    padding: 12px;
+}
+.dangky{
+    margin: 0 20px;
+    border: 0;
+    font-weight: bold;
+    border-radius: 4px;
+    flex-grow: 1;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid #00483d;
+    color: #222;
 }
