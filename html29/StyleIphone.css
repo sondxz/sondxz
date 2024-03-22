@@ -140,9 +140,14 @@
     background-image: linear-gradient(0,#1F472A,#1F472A);
 }
 
+.trangchu{
+    height: 32px;
+    font-size: 12px;
+    padding: 5px 10px 10px 0px;
+    margin-left: -31px;
+}
 .trangchu ul {
     display: flex;
-    
 }
 .trangchu ul li{
     display: flex;
@@ -156,7 +161,7 @@
 }
 .trangchu ul li a i{
     color: #1F472A;
-    margin-top: px;
+    margin-top: 3px;
     margin-right: 5px;
 }
 .SP_item-info{
