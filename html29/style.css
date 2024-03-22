@@ -133,19 +133,20 @@
 /*CONTAINER*/
 .container-fluid {
         background-color: #f5f5f5;
-        margin-top: 12px;
+        padding-bottom: 15px;
+        padding-top: 15px;
 }
 /* LIST SAN PHAM*/
 .category {
         background-color: white;
         border-radius: 10px;
         margin-top: 12px;
-        font-size: 0.95rem;
+        font-size: 1rem;
         margin-top: 12px;
         box-shadow: inset 0 0 5px #988787;
 }
 .category__heading {
-    font-size: 1em;
+    font-size: 1.5em;
     padding: 5px 5px;
     margin: 0 4px;    
 }
@@ -156,7 +157,7 @@
 .category-tong {
     display: inline-flex;
     justify-content: center;
-    margin: 0 2px;
+    margin: 0 5px;
 }
 .category-item,
 .category-item__link,
@@ -182,13 +183,14 @@
 }
 
 /*SANPHAM*/
-.SP_item-info{
+.SP_item-info {
     border-radius: 5px;
     margin:4px;
     max-width:auto;
     background-color: #ffffff;
     display: inline;
     box-shadow: inset 0 0 3px #c2bebe;
+    transform: translateX(5px);
 }
 
 .SP_item-info-img{
@@ -204,6 +206,7 @@
     align-items: stretch;
     text-decoration: none;
     color:black;
+    font-size: 0.9rem;
 }
 .SP_item-info-money{
     align-items: stretch;
@@ -230,16 +233,18 @@
 }
 /* FOOTER*/
 
-.footer{
+.footer__header{
     height: 100px;
+  
 }
-.footer__say{
+.footer__say{    
     padding: 5px;
-    height:auto;
+    height:50px;
     background-image: linear-gradient(0,#1F472A,#217638);
     color: #f5f5f5;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;     
+    text-align: center;
+    padding-top: 10px;     
 }
 .footer__information{ 
     display:flex;
@@ -286,7 +291,7 @@ a[href]{
     border-radius: 14px;
 }
 .close{
-    padding: 0px 11px 3px 11px ;
+    padding: 0px 10px 3px 10px ;
     color: #fff;
     text-align: center;
     justify-content: center;
