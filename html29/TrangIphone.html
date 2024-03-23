@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teachphone</title>
-    <link rel="stylesheet" href="Iphone.css">
+    <link rel="stylesheet" href="iphone.css">
     <link rel="shortcut icon" type="x-icon" href="https://scontent.fhan17-1.fna.fbcdn.net/v/t1.15752-9/432020645_1115776796415589_2964001679249310149_n.png?stp=dst-png_p206x206&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=2b8FBGUSOKsAX83JKxy&_nc_ht=scontent.fhan17-1.fna&oh=03_AdTqwdAIDA4nSEOIYQojWg-aQDI9kCq62vktCh_ZyDF14A&oe=661D4815">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/6bd99065c8.js" crossorigin="anonymous"></script>
@@ -87,7 +87,7 @@
                             </ul>
     
                             <ul class="header__navbar-list">
-                                <li class="header__navbar-item"><a href="file:///D:/trangchu.html" class="header__navbar-item-link"><i class="fa-solid fa-house"></i></a></li>
+                                <li class="header__navbar-item"><a href="trangchu.html" class="header__navbar-item-link"><i class="fa-solid fa-house"></i></a></li>
                                 <li class="header__navbar-item"><a href="#" class="header__navbar-item-link"><i class="fa-solid fa-user"></i></a></li>    
                                 <li class="header__navbar-item"><a href="#" class="header__navbar-item-link"><i class="fa-solid fa-cart-shopping"></i></a></li>                                    
                                 <li class="header__navbar-item"><a href="" class="header__navbar-item-link"><i class="fa-solid fa-phone"></i></a></li>
@@ -101,36 +101,73 @@
                     <div class="row">
                         <div class="trangchu col-12"> 
                             <ul>
-                                <li><a href="file:///D:/trangchu.html"><i class="fa-solid fa-house"></i><b>Trang chủ</b></a></li>
+                                <li><a href="trangchu.html"><i class="fa-solid fa-house"></i><b>Trang chủ</b></a></li>
                             </ul>
                         </div>                                
-                        <div class="grid__col-12">
-                            <div id="demo" class="carousel slide col-12" data-bs-ride="carousel">
-                                <div class="carousel-indicators">
-                                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active next"></button>
-                                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1" class="next"></button>
-                                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2" class="next"></button>
+                        <div class="grid__list col-xl-3 col-sm-12 col-12 " >                                
+                            <nav class="category">
+                                <h5 class="category__heading"><i class="fa-solid fa-bars icon" style="color: green;"></i><span class="category-tong">Danh Mục Sản Phẩm</span></h5>                                    
+                                <ul class="category-list content" id="id_content">
+                                    <li class="category-item">
+                                        <a href="Iphone.html" class="category-item__link">
+                                            <span class="category-tong">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/2739/2739899.png" style="width: 30px;"></img>
+                                                IPHONE
+                                            </span>
+                                        </a>
+                                    </li>  
+                                    <br>
+                                    <li class="category-item">                                    
+                                        <a href="#" class="category-item__link">
+                                            <span class="category-tong">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/35/35429.png" style="width: 30px;" class="category__heading-icon"></img>
+                                                SAMSUNG
+                                            </span>
+                                        </a>
+                                    </li>   
+                                    <br>
+                                    <li class="category-item">
+                                        <a href="#" class="category-item__link">
+                                            <span class="category-tong">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/10514/10514138.png" style="width: 30px;"></img>
+                                                XIAOMI
+                                            </span>
+                                        </a>               
+                                    </li>  
+                                </ul>                                                   
+                            </nav>
+                        </div>
+        
+                        <div class="grid col-xl-9 col-sm-12 col-12 ">
+                            <div class="row">
+                                <div id="demo" class="carousel slide col-12 pipe" data-bs-ride="carousel">
+                                    <div class="carousel-indicators pipe">
+                                      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active next"></button>
+                                      <button type="button" data-bs-target="#demo" data-bs-slide-to="1" class="next"></button>
+                                      <button type="button" data-bs-target="#demo" data-bs-slide-to="2" class="next"></button>
+                                    </div>
+                                    
+                                    <div class="carousel-inner col-12 pipe">
+                                      <div class="carousel-item active pipe">
+                                        <img class="truot img-rounded pipe" src="https://cdn-v2.didongviet.vn/files/banners/2024/2/15/1/1710484683618_xiaomi_14_recovered_fixx_824x400.jpg" class="block" style="width: 100%;">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img class="truot img-rounded pipe" src="https://cdn-v2.didongviet.vn/files/banners/2024/2/16/1/1710526678017_iphone_824x400_5.jpg" class="block" style="width: 100%;">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img class="truot img-rounded pipe" src="https://cdn-v2.didongviet.vn/files/banners/2024/2/14/1/1710381657987_iphone_caa_nhaa_maaai_824x400.jpg" class="block" style="width: 100%;">
+                                      </div>
+                                    </div>
+                                    
+                                    <button class="carousel-control-prev pipe" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon pipe"></span>
+                                    </button>
+                                    <button class="carousel-control-next pipe" type="button" data-bs-target="#demo" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon  pipe"></span>
+                                    </button>
                                 </div>
-                                
-                                <div class="carousel-inner col-12">
-                                    <div class="carousel-item active">
-                                    <img class="truot img-thumbnail" src="https://cdn-v2.didongviet.vn/files/banners/2024/2/15/1/1710484683618_xiaomi_14_recovered_fixx_824x400.jpg" class="block" style="width: 100%;">
-                                    </div>
-                                    <div class="carousel-item">
-                                    <img class="truot img-thumbnail " src="https://cdn-v2.didongviet.vn/files/banners/2024/2/16/1/1710526678017_iphone_824x400_5.jpg" class="block" style="width: 100%;">
-                                    </div>
-                                    <div class="carousel-item">
-                                    <img class="truot img-thumbnail" src="https://cdn-v2.didongviet.vn/files/banners/2024/2/14/1/1710381657987_iphone_caa_nhaa_maaai_824x400.jpg" class="block" style="width: 100%;">
-                                    </div>
-                                </div>
-                                
-                                <button class="carousel-control-prev " type="button" data-bs-target="#demo" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon "></span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon "></span>
-                                </button>
                             </div>
+                        </div>
                             
                             <div class="grid__col-12">
                                 <div class="row">
