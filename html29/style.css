@@ -129,6 +129,7 @@
 .grid__col-12 {
     margin-top: 6px;
     margin-bottom: 6px;
+    padding-top: 10px;
 }
 /*CONTAINER*/
 .container-fluid {
@@ -144,6 +145,7 @@
         font-size: 1rem;
         margin-top: 12px;
         box-shadow: inset 0 0 5px #988787;
+        height: 97%;
 }
 .category__heading {
     font-size: 1.5em;
@@ -266,7 +268,7 @@
 a[href]{
     text-decoration: none;
 }
-
+/*Dang nhap*/
 .bgcolor{
     display: none;
     position: fixed;
