@@ -5,7 +5,7 @@ next.addEventListener(
     "click", function(){
         if(index<=0){
             index=index+1
-            document.querySelector('.slider-content-left').style.right = index*98+"%"
+            document.querySelector('.slider-content-left').style.right = index*99.6+"%"
             document.querySelector('.fa-chevron-right').style.display = "none"
             document.querySelector('.fa-chevron-left').style.display = "block"
         }
