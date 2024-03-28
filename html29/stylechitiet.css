@@ -1,4 +1,5 @@
 header {
+    padding: 0px !important;
     height: 120px;
     background-image: linear-gradient(0,#1F472A,#217638);
     justify-content: space-between;    
@@ -154,6 +155,22 @@ a[href]{
     padding-bottom: 15px;
     padding-top: 15px;
 }
+.row {margin: 0px !important;}
+.marketing{
+    position: relative;
+}
+.marketing-left{
+    position: absolute;
+    position: fixed;
+    bottom: 200px;
+    left: 145px;
+}
+.marketing-right{
+    position: absolute;
+    position: fixed;
+    bottom: 200px;
+    right: 145px;
+}
 .tenshop{
     color: whitesmoke;
 }
@@ -190,6 +207,7 @@ a[href]{
 .sp{
     border-top: 1px solid silver;
     padding-top: 10px;
+    border-bottom: 1px solid silver;
 }
 .main{
     display: block;
@@ -439,4 +457,105 @@ a[href]{
 }
 a[href]{
     text-decoration: none;
+}
+/*Sản phẩm liên quan*/
+.slider{
+    background-color:#f5f5f5;
+    padding-bottom: 20px;
+}
+.slider-content{
+    position: relative;
+    overflow: hidden;
+    background-color: #00483d;
+    border-radius: 5px;
+}
+.slider-content-left{
+    display: flex ;
+    position:relative;
+    transition: 1s;
+}
+.slide-title{
+    color: white;
+    margin: 10px 0px 0px 25px
+}
+.SP_item-info{
+    border-radius: 5px;
+    margin: 6px;
+    padding: 4px;
+    max-width:auto;
+    background-color: #ffffff;
+    display: inline;
+    box-shadow: inset 0 0 3px #c2bebe;
+    
+}
+
+.SP_item-info-img{
+    width:12.5rem;
+    margin:5px
+}
+.SP_item-info-img:hover,.SP_item-info-tagName:hover{
+    transition: 1;
+    transform: translateY(-2px);
+    color: #217638;
+}
+.SP_item-info-tagName{
+    align-items: stretch;
+    text-decoration: none;
+    color:black;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.SP_item-info-money{
+    align-items: stretch;
+    margin:10px;
+    text-align: center;
+}
+.SP_item-info-money-old{
+    font-size: 14px;
+    color:#7e8897;
+    text-decoration: line-through; /* gạch ngang */
+}
+.SP_item-info-money-new{
+    font-size: 15px;
+    font-weight: 500;
+    color:red;
+}
+
+.SP_item-info-money-sale{
+    font-size: 14px;
+    font-weight: 500;
+    background-color: red;
+    color:rgb(249, 245, 245);
+    border:1px;
+    border-radius: 2px;
+}
+
+.slider-next-prev{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 50%;
+    justify-content: space-between;
+    width: 100%;
+    cursor: pointer;
+
+}
+.slide-prev i{
+    display: none;
+    color: rgba(255, 255, 255,0.5);
+    font-size: 30px;
+    background-color: rgba(143, 146, 147, 0.2);
+    padding: 5px;
+    border-radius: 10px;
+}
+.slide-next i{
+    color: rgba(255, 255, 255,0.5);
+    font-size: 30px;
+    background-color: rgba(143, 146, 147, 0.2);
+    padding: 5px;
+    border-radius: 10px;
+}
+.slide-prev i:hover,.slide-next i:hover{
+    color: rgba(255, 255, 255,1);
+    background-color: rgba(143, 146, 147, 0.5);
 }
