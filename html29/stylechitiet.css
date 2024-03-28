@@ -162,13 +162,13 @@ a[href]{
 .marketing-left{
     position: absolute;
     position: fixed;
-    bottom: 200px;
+    bottom: 315px;
     left: 145px;
 }
 .marketing-right{
     position: absolute;
     position: fixed;
-    bottom: 200px;
+    bottom: 315px;
     right: 145px;
 }
 .tenshop{
