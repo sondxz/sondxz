@@ -151,7 +151,7 @@ a[href]{
     text-decoration: none;
 }
 .container-fluid {
-    background-color: #f5f5f5;
+  
     padding-bottom: 15px;
     padding-top: 15px;
 }
@@ -162,14 +162,14 @@ a[href]{
 .marketing-left{
     position: absolute;
     position: fixed;
-    bottom: 315px;
-    left: 145px;
+    bottom: 170px;
+    left: 10px;
 }
 .marketing-right{
     position: absolute;
     position: fixed;
-    bottom: 315px;
-    right: 145px;
+    bottom: 170px;
+    right: 10px;
 }
 .tenshop{
     color: whitesmoke;
@@ -213,6 +213,32 @@ a[href]{
     display: block;
     box-sizing: border-box;
     line-height: 18px;
+}
+.memory{
+    position: relative;
+    border-radius: 3px;
+    border: 1px solid rgb(175, 177, 175);
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 2px;
+    margin-bottom: 5px;
+}
+.memory-radio{
+    position: absolute;
+    clip:rect(0 0 0 0);
+}
+.color{
+    position: relative;
+    border-radius: 3px;
+    border: 1px solid rgb(175, 177, 175);
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 2px;
+    margin-bottom: 5px;
+}
+.color-radio{
+    position: absolute;
+    clip:rect(0 0 0 0);
 }
 .gia{
     display: flex;
@@ -425,6 +451,9 @@ a[href]{
     padding-top: 10px;
 }
 /* FOOTER*/
+footer{
+    padding: 0px !important;
+}
 .footer__header{
     height: 100px;
   
@@ -460,7 +489,6 @@ a[href]{
 }
 /*Sản phẩm liên quan*/
 .slider{
-    background-color:#f5f5f5;
     padding-bottom: 20px;
 }
 .slider-content{
