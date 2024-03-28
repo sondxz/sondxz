@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="123.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/6bd99065c8.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -96,12 +96,13 @@
                 <!--nội dung chính-->
             
                 <div class="container-fluid">
-                    <div class="marketing">
-                        <img src="https://nguyencongpc.vn/media/banner/29_Febfa89a7eb5cdc9b7551f1b3a79831db91.webp" class="marketing-left" width="160px" height="483px">
-                        <img src="https://nguyencongpc.vn/media/banner/29_Feb40eaff2956861bc5a66a363e56b8ef71.webp" class="marketing-right" width="160px" height="483px">
-                    </div>
                     <div class="grid">
+                     
                         <div class="row">
+                          <div class="marketing">
+                            <img src="https://nguyencongpc.vn/media/banner/29_Febfa89a7eb5cdc9b7551f1b3a79831db91.webp" class="marketing-left" width="160px" height="483px">
+                            <img src="https://nguyencongpc.vn/media/banner/29_Feb40eaff2956861bc5a66a363e56b8ef71.webp" class="marketing-right" width="160px" height="483px">
+                    </div>                    
                             <!--trang chủ-->
                     <div class="trangchu"> 
                         <ul>
@@ -167,7 +168,9 @@
                                     <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:0:0/q:90/plain/https://cellphones.com.vn/media/wysiwyg/Phone/Apple/iphone_15/iphone-15-plus-3.JPG" width="100%"><br><br>
                                     <p>Ngoài ra, iPhone 15 Plus còn được trang bị công nghệ TrueTone hiện đại, giúp điều chỉnh màu sắc của màn hình phù hợp với môi trường xung quanh. Có thể thấy màn hình iPhone 15 Plus mang đến trải nghiệm xem phim, chơi game, lướt web... vượt trội với hình ảnh sắc nét, sống động và màu sắc chân thực.</p>
                                 </div>
-                                <button id="xemthem"><b>Xem thêm v</b></button>
+                                <div class="row p">
+                                    <button id="xemthem"><b>Xem thêm</b></button>
+                                </div>
                                 <div class="qc2">
                                     <b>Hiệu năng mạnh mẽ với chip Binoic A16 cùng dung lượng lưu trữ lớn</b><br><br>
                                     <p>iPhone 15 Plus được trang bị chip Bionic A16 tiên tiến với CPU 6 lõi, giúp nâng cao hiệu suất tổng thể, cho phép xử lý dễ dàng các tác vụ phức tạp và đồng thời cung cấp thời lượng pin ấn tượng. Trong đó có 2 lõi hiệu năng tiêu thụ năng lượng ít hơn 20% và 4 lõi tiết kiệm điện, cùng với GPU 5 lõi và Neural Engine 16 lõi. </p>
@@ -180,6 +183,40 @@
                             </div>
                         </div>
                         <div class="col-5 col-sm-5">
+                            <h6>Bộ nhớ</h6>
+                            <label class="memory">
+                                <input type="radio" name="memory" class="memory-radio" >
+                                <span>256GB</span>
+                            </label> 
+                            <label class="memory">
+                                <input type="radio" name="memory" class="memory-radio" >
+                                <span>512GB</span>
+                            </label>
+                            <label class="memory">
+                                <input type="radio" name="memory" class="memory-radio" >
+                                <span>1TB</span>
+                            </label>
+                            <h6>Màu sắc</h6>
+                            <label class="color">
+                                <input type="radio" name="color" class="color-radio" >
+                                <span>Xanh lá nhạt</span>
+                            </label> 
+                            <label class="color">
+                                <input type="radio" name="color" class="color-radio" >
+                                <span>Xanh dương nhạt</span>
+                            </label>
+                            <label class="color">
+                                <input type="radio" name="color" class="color-radio" >
+                                <span>Hồng nhạt</span>
+                            </label>
+                            <label class="color">
+                                <input type="radio" name="color" class="color-radio" >
+                                <span>Vàng nhạt</span>
+                            </label>
+                            <label class="color">
+                                <input type="radio" name="color" class="color-radio" >
+                                <span>Đen</span>
+                            </label>
                             <div class="gia">
                                 <div class="row">
                                     <div class="col-12 col-sm-6">
@@ -273,11 +310,11 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> 
                         </div>
                     </div>
-                </div>
-
+                
+            </div>
                 <div class="slider">
                     <div class="grid">
                         <div class="container">
@@ -379,7 +416,7 @@
                                     <div class="SP_item-info" >
                                         <a href="chitiet.html">
                                             <div class="SP_item-info__book" >
-                                                <img class="SP_item-info-img" src="https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-15-plus_1_.png" style="width: 12.5rem">
+                                                <img class="SP_item-info-img" src="https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-15-plus_1_.png" >
                                             </div>
                                             <div class="SP_item-info-name">    
                                                 <h5 class="SP_item-info-tagName">iPhone 15 Plus 128GB <br> Chính hãng VN/A</h5>
@@ -409,7 +446,7 @@
                                     <div class="SP_item-info" >
                                         <a href="chitiet.html">
                                             <div class="SP_item-info__book" >
-                                                <img class="SP_item-info-img" src="https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-15-plus_1_.png" style="width: 12.5rem">
+                                                <img class="SP_item-info-img" src="https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-15-plus_1_.png" >
                                             </div>
                                             <div class="SP_item-info-name">    
                                                 <h5 class="SP_item-info-tagName">iPhone 15 Plus 128GB <br> Chính hãng VN/A</h5>
@@ -421,7 +458,7 @@
                                             </div>  
                                         </a>                                                                                                                     
                                     </div>
-                                    <div class="SP_item-info " style="margin-left: -1px;">
+                                    <div class="SP_item-info " >
                                         <a href="#">
                                             <div class="SP_item-info__book" >
                                                 <img class="SP_item-info-img" src="https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-15-pro-256gb_1.png">
@@ -449,6 +486,7 @@
                         </div>
                     </div>                    
                 </div>
+              
 
                 <footer>
                     <div class="footer__header">
