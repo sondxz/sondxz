@@ -34,13 +34,13 @@ public class Nguoi {
 		queQuan=sc.nextLine();
 	}
 	
-	public Date stringToDate(String ngaySinhstr) {
+	public Date stringToDate(String ngaySinhStr) {
 		Date ngaySinhDate = null;
 		
 		SimpleDateFormat sdf=new SimpleDateFormat("dd/MM/yyyy");
 		
 		try {
-			ngaySinhDate =sdf.parse(ngaySinhstr);
+			ngaySinhDate =sdf.parse(ngaySinhStr);
 		} catch (ParseException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

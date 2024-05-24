@@ -32,7 +32,9 @@ public class HocSinh extends Nguoi
 		System.out.println("Nhap khoa hoc: ");
 		khoaHoc=sc.nextLine();
 		System.out.println("Nhap ky hoc: ");
-		kyHoc=sc.nextInt();
+		kyHoc=sc.nextInt(); 
+		sc.nextLine();
+		System.out.println("-----------");
 	}
 	
 	public void inThongTin(){
@@ -47,8 +49,4 @@ public class HocSinh extends Nguoi
 		return lop;
 	}
 
-	public Object getngaySinh() {
-		// TODO Auto-generated method stub
-		return null;
-	}
 }
