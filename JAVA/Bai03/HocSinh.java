@@ -1,11 +1,54 @@
+
 package Bai03;
 
-public class HocSinh {
-	String lop;
-	String khoahoc;
-	String kyhoc;
+import java.util.Date;
+import java.util.Scanner;
+
+public class HocSinh extends Nguoi
+{
+	private String lop;
+	private String khoaHoc;
+	private int kyHoc;
 	
-	//constructor 1
-	public hocSinh
+	public HocSinh(){}
 	
+	public HocSinh(String hoTen, Date ngaySinh, String lop, int kyHoc){
+		super(hoTen, ngaySinh);
+		this.lop=lop;
+		this.kyHoc=kyHoc;
+	}
+	
+	public HocSinh(String hoTen, String lop, String khoaHoc){
+		this.hoTen=hoTen;
+		this.lop=lop;
+		this.khoaHoc=khoaHoc;
+	}
+	
+	public void nhapThongTin(Scanner sc){
+		super.nhapThongTin(sc);
+		
+		System.out.println("Nhap lop: ");
+		lop=sc.nextLine();
+		System.out.println("Nhap khoa hoc: ");
+		khoaHoc=sc.nextLine();
+		System.out.println("Nhap ky hoc: ");
+		kyHoc=sc.nextInt();
+	}
+	
+	public void inThongTin(){
+		super.inThongTin();
+		
+		System.out.println("Lop: "+ lop);
+		System.out.println("Khoa hoc: "+ khoaHoc);
+		System.out.println("Ky hoc: "+ kyHoc);
+	}
+	
+	public String getLop(){
+		return lop;
+	}
+
+	public Object getngaySinh() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
