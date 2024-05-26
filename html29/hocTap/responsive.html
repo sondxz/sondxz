@@ -1,49 +1,56 @@
-!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demo CSS Media queries</title>
-
+    <meta charset="UTF-8" />
+    <title>Blog cá nhân của Hoàng Sơn</title>
     <style>
-        .col {
-          float: left; 
-          display: block;
-          border: 1px solid green;
-      }
-
-     
-      .col {width: 33%;}
-          
-      @media (max-width: 768px) {
-          .col {width: 49%;}
-      }
-
-      @media (max-width: 576px) {
-          .col {width: 100%;}
-      }
-
-      
+        .menu {
+            float:left;
+            display: block;
+        }
+        .menu1,.info,.profile {
+            float: left;
+            display: block;
+            border: 2px solid black;
+            border-radius: 4px;
+            position: fixed;
+            text-align: center;
+            
+        }
+        .menu1,.menu,.info,.class,.profile {width: 33%;}
+        @media(max-Width:768px){
+            .menu,.menu1,.info,.class,.profile {width: 49%;}
+        }
+        @media(max-Width: 576px){
+            .menu,.menu1,.info,.class,.profile {width: 100%;} 
+        }
     </style>
 </head>
 <body>
-    <div class="col">
-        Box 1
-    </div>
-    <div class="col">
-        Box 2
-    </div>
-    <div class="col">
-        Box 3
-    </div>
-      <div class="col">
-        Box 4
-    </div>
-    <div class="col">
-        Box 5
-    </div>
-    <div class="col">
-        Box 6
-    </div>
+        <fieldset style="border: 1px solid;border-radius: 4px;">
+        <div class="menu">
+            <img style="width: 100px;" src="Downloads/Logo-Hoc-Vien-Nong-Nghiep-Viet-Nam-VNUA.png" alt="logovnua">
+        </div>
+        <div class="menu2">
+            <a class="menu1" href="#info" style="width: 70px;">My Info</a>
+            <a class="menu1"style="width: 70px">My Class</a>
+            <a class="menu1"style="width: 75px;">My Profile</a>
+        </div>
+        </fieldset>
+        <div class="info" id="info">
+            Họ và tên: Nguyễn Hoàng Sơn<br>
+            Ngày sinh:20/12/2004<br>
+            Địa chỉ: <br>
+        </div>
+        <div class="info" id="#info">
+            Họ và tên: Nguyễn Hoàng Sơn <br>
+            Ngày sinh:20/12/2004 <br>
+            Địa chỉ: 
+        </div>
+        <div class="info" id="#info">
+            Họ và tên: Nguyễn Hoàng Sơn<br>
+            Ngày sinh:20/12/2004<br>
+            Địa chỉ: <br>
+        </div>
 </body>
 </html>
