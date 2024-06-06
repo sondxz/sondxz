@@ -1,16 +1,17 @@
+
 package Register;
 
-public class Users {
+public class User {
 	private String email;
 	private String fullname;
 	
 	//constructor 1
-	public Users () {
+	public User () {
 		
 	}
 	
 	//constructor 2
-	public Users(String email, String fullname) {
+	public User(String email, String fullname) {
 		this.email = email;
 		this.fullname = fullname;
 	}
