@@ -46,12 +46,12 @@
             </Label>
             <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="15.0" GridPane.columnIndex="3">
                <children>
-                  <Label fx:id="loginfullname" text="Xin chào BẠN">
+                  <Label fx:id="welcomeMsg" text="Xin chào BẠN">
                      <font>
                         <Font size="12.0" />
                      </font>
                   </Label>
-                  <Hyperlink fx:id="Exit" onAction="#onClickExit" text="Thoát">
+                  <Hyperlink onAction="#onClickExit" text="Thoát">
                      <font>
                         <Font size="12.0" />
                      </font>
