@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<GridPane fx:controller="Register.RegisterController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171">
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Register.RegisterController">
   <columnConstraints>
     <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
     <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -22,7 +22,7 @@
     <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
   </rowConstraints>
    <children>
-      <Button mnemonicParsing="false" text="Đăng ký Users" GridPane.columnIndex="1" GridPane.rowIndex="3">
+      <Button mnemonicParsing="false" onAction="#onClickRegisterButton" text="Đăng ký Users" GridPane.columnIndex="1" GridPane.rowIndex="3">
          <font>
             <Font size="14.0" />
          </font>
@@ -42,13 +42,13 @@
             <Font size="14.0" />
          </font>
       </Label>
-      <Label text="Lỗi đăng ký tài khoản" GridPane.columnSpan="2" GridPane.halignment="LEFT" GridPane.rowIndex="4">
+      <Label fx:id="Message" text="Lỗi đăng ký tài khoản" GridPane.columnSpan="2" GridPane.halignment="LEFT" GridPane.rowIndex="4">
          <font>
             <Font size="13.0" />
          </font>
       </Label>
-      <TextField GridPane.columnIndex="1" GridPane.rowIndex="1" />
-      <TextField GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <TextField fx:id="EmailTF" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <TextField fx:id="FullnameTF" GridPane.columnIndex="1" GridPane.rowIndex="2" />
    </children>
    <padding>
       <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
